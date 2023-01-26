@@ -106,8 +106,8 @@ body {
   width: 100vw;
   background: black;
   overflow: hidden;
-  background: -webkit-linear-gradient(rgba(28, 29, 39, 0.8), rgba(80, 80, 80, 0.363));
-  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(94, 92, 93, 0.363));
+  background: -webkit-linear-gradient(rgba(28, 29, 39, 0.5), rgba(80, 80, 80, 0.363));
+  background: linear-gradient(rgba(29, 38, 113, 0.5), rgba(94, 92, 93, 0.363));
 }
 
 .home:after {
