@@ -96,7 +96,7 @@ body {
   width: 100%;
   height: 100vh;
   /*background-image: url(https://tr.rbxcdn.com/7283ba3ea862b03f18fd513467453632/768/432/Image/Png);*/
-  background-image: url("./background/take7.png");
+  background-image: url("./background/default.png");
   background-position: center top;
   background-size: cover;
 }
