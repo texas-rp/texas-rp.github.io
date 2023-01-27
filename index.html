@@ -34,8 +34,19 @@
         background-size: cover;
         background-repeat: no-repeat;
         transition: 0s;
-        overflow-x: hidden;
+        overflow: hidden;
         user-select: none;
+    }
+
+    .corner-logo {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        left: 5px;
+        aspect-ratio: 1;
+        width: 100px;
+        bottom: -5px;
+        max-width: 25%;
     }
 </style>
 
@@ -53,6 +64,7 @@
     </div>
     <!-- <div class="rest-body"></div> -->
     <!-- <a class="title">Welcome</a> -->
+    <img src="./src/texas-logo.png" class="corner-logo"></img>
     <a class="back-to-top hidden" onclick="scrollToTop()">↑</a>
 </body>
 <div onclick="closeNav()" id="sidenav-back" class="sidenav-back hidden"></div>
